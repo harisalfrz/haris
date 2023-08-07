@@ -1,0 +1,56 @@
+.home {
+    width: 500px;
+    margin: 90px auto;
+}
+
+p {
+    text-align: justify;
+}
+
+button {
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-left: 20;
+}
+
+.sosmed {
+    text-align: center;
+    font-size: 40px;
+}
+
+.sosmed a {
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+.card {
+    width: 350px;
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 0px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #000000;
+    text-align: center;
+}
+
+.card-p {
+    text-align: center;
+}
+
+.card img {
+    border-radius: 17px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
