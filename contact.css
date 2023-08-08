@@ -1,6 +1,6 @@
 body {
     margin: 0;
-      background-color: #67a6e6b9;
+      background-color: #e3e7eb;
       font-family: 'Roboto', sans-serif;
       font-family: 'Roboto Condensed', sans-serif;
 }
@@ -9,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #e7e7e7ec;
+    background-color: #f4f3f3;
     padding: 0 60px;
   }
   
@@ -21,7 +21,7 @@ body {
   
   .nav-left a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: black;
   }
   
   .nav-left ul li {
@@ -34,8 +34,12 @@ body {
     vertical-align: middle;
   }
 
+  .nav-left ul li a:hover {
+    color: grey;
+  }
+
   .nav-left ul li .active{
-    color: rgb(0, 0, 0);
+    color: grey;
   }
   
   nav img {
@@ -54,6 +58,11 @@ body {
     border-radius: 6px;
     color: white;
   }
+  
+  .nav-right a:hover {
+    background-color: orangered;
+    color: white;
+  }
 
   .kartu {
     display: flex;
@@ -61,7 +70,7 @@ body {
     justify-content: space-between;
     margin: 32px 100px 32px 100px;
     padding: 24px 76px;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 6px;
 }
@@ -243,5 +252,3 @@ button {
 .submits:hover {
     background-color: orangered;
 }
-
-  
