@@ -60,7 +60,7 @@ body {
   }
   
   .nav-right a:hover {
-    background-color: orangered;
+    background-color: rgb(255, 90, 34);
     color: white;
   }
 
@@ -96,7 +96,7 @@ body {
 }
 
 .button a:hover {
-    background-color: orangered;
+    background-color: rgb(255, 136, 0);
     color: white;
 }
 
@@ -178,7 +178,7 @@ body {
   }
 
   .icon a:hover{
-    background: orangered;
+    background: rgb(253, 143, 0);
   }
 
   .icon .icon-b {
@@ -250,5 +250,5 @@ button {
 }
 
 .submits:hover {
-    background-color: orangered;
-}
+    background-color: rgb(255, 123, 0);
+}                                                                                   
