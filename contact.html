@@ -1,61 +1,59 @@
 <html>
-<head>
-    <title>Contact Me</title>
-    <link rel="stylesheet" href="contact.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
-    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task-2-HarisAlfariz</title>
+  <link rel="SHORTCUT ICON" href="/img/brandred copy.ico" type="image/x-icon">
+  <link rel="ICON" href="/img/brandred copy.ico" type="image/ico">
+  <link rel="stylesheet" type="text/css" href="contact.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-left">
-            <ul>
-                <li>
-                    <img src="logodw.png" alt="Logo">
-                </li>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="index.html">Blog</a>
-                </li>
-            </ul>
-        </div>
-        <div class="nav-right">
-            <a href="#">Contact Me</a>
-        </div>
-    </nav>
-    <h2>FILL OUT THE FORM BELOW</h2>
-    <form action="">
-        <div>
-            <label for="name">Nama</label>
-            <input type="text" id="name" placeholder="Your Name">
-        </div>
-        <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Your@gmail.com">
-        </div>
-        <div>
-            <label for="phone">Phone Number</label>
-            <input type="number" idphone placeholder="Your Number">
-        </div>
-        <div>
-            <label for="subject">Subject</label>
-            <select name="subject" id="subject">
-                <option value="">What's your subject</option>
-                <option value="">Backend</option>
-                <option value="">Frontend</option>
-            </select>
-        </div>
-        <div>
-            <label for="message">Your Message</label>
-            <textarea name="message" id="message" cols="30" rows="4" placeholder="Write your message here!"></textarea>
-        </div>
-        <div class="to-right">
-            <button type="submit" class="submits">Submit</button>
-        </div>
-    </form>
+
+<nav>
+  <div class="nav-left">
+    <ul>
+      <li>
+        <img class="img_logo" src="logodw.png" alt="logo">
+      </li>
+      <li>
+        <a href="index.html" class="">Home</a>
+      </li>
+      <li>
+        <a href="index.html">Blog</a>
+      </li>
+    </ul>
+  </div>
+  <div class="nav-right">
+    <a href="contact.html">Contact Me</a>
+  </div>
+</nav>
+
+
+      <div class="container_form">
+        <h1 style="text-align: center;">Fill out the form below</h1>
+        <form action="">
+          <label for="name">Name</label>
+          <input type="text" id="input-name" placeholder="Your name..">
+      
+          <label for="email">Email</label>
+          <input type="email" id="input-email" placeholder="email">
+
+          <label for="phone">Phone</label>
+          <input type="number" id="input-phone" placeholder="phone">
+      
+          <label for="subject">subject</label>
+          <select id="input-subject" name="subject">
+            <option value="indosat">frontend</option>
+            <option value="telkomsel">backend</option>
+            <option value="telkomsel">fullstack</option>
+          </select>
+      
+          <label for="message">Subject</label>
+          <textarea id="input-message" name="message" maxlength="100" placeholder="Write something.." style="height:100px;resize: none;"></textarea>
+      
+          <button>submit</button>
+        </form>
+  </div>
+
 </body>
 </html>
